@@ -10,7 +10,7 @@
 + Все запросы к БД выполняет сервер index.js на Node.js
 
 ### ВАЖНО:
-Для локального теста приложения замените в файле messanger/messanger.php адрес сервера websocket с lokalhost на локальный ip устройства на котором будет запущен файл index.js (строка 318):
+Для локального теста приложения замените в файле messanger/messanger.php адрес сервера websocket с localhost на локальный ip устройства на котором будет запущен файл index.js (строка 318):
 ```
 <script src="http://localhost:3000/socket.io/socket.io.js"></script>
 ```
